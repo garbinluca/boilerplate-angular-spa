@@ -39,10 +39,6 @@ import { AuthService } from "./auth/auth.service";
 })
 export class AppComponent implements OnInit {
 
-
-	// lucagarbin2@gmail.com
-	// jutcuj-xamfE5-bevdaq
-
 	authService = inject(AuthService);
 	userInfo$ = this.authService.userInfo$;
 
